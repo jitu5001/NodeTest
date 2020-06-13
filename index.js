@@ -13,7 +13,7 @@ console.log('listener listened');
 })
 myEventObj.log('message','Hi')
 
-sdfsdf
+console.log('Fantastic ...  :)')
 
 //http
 // const http = require('http');
