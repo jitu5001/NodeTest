@@ -12,6 +12,7 @@ myEventObj.on('message',function (callback) {
 console.log('listener listened');
 })
 myEventObj.log('message','Hi')
+mjhhjh
 
 //http
 const http = require('http');
