@@ -1,0 +1,24 @@
+image: node:latest
+
+stages:
+  - setup
+  - build
+
+cache:
+  paths:
+  - node_modules/
+  
+InstallDependencies:
+  stage: setup
+  script:
+    - npm install
+
+BuildingApp:
+  stage: build
+  script:
+    - npm run build
+  artifacts:
+    expire_in: 1 week
+    name: "BuildingApp"
+    paths:
+      - release
