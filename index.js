@@ -15,8 +15,8 @@ myEventObj.log('message','Hi')
 
 
 //http
-const http = require('http');
-http.createServer((req,res) => {
-    console.log("hello world git")
-    res.end("My first page on git");
-}).listen(5005,() => console.log('Server running'));
+// const http = require('http');
+// http.createServer((req,res) => {
+//     console.log("hello world git")
+//     res.end("My first page on git");
+// }).listen(5005,() => console.log('Server running'));
