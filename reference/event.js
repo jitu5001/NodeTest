@@ -7,5 +7,3 @@ class MyEvent extends EventEmitter{
 }
 
 module.exports = MyEvent;
-
-kjjkjkjkj
